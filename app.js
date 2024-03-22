@@ -6,6 +6,10 @@ const stopBtn = document.getElementById("stopBtn");
 const skipBack = document.getElementById("skipBack");
 const skipFor = document.getElementById("skipFor");
 
+music.addEventListener("autoplay", function () {
+  music.play();
+});
+
 playBtn.addEventListener("click", function () {
   music.play();
 });
